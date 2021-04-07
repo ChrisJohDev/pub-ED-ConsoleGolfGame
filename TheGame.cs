@@ -66,17 +66,18 @@ namespace Golf
                     }
                     else if (ok && Math.Round(_distance, 1) < Math.Round(_distanceToHole, 1))
                     {
-                        if (numberOfStrikes > 1)
-                        {
-                            Console.WriteLine("If you sink your next strike you will score a " + StrikeTerms[(numberOfStrikes - parDistance.Par)] + " on this hole");
-                        }
+                        
                     }
                     else
                     {
                         ok = false;
                         throw new SunkTheSwingException("Congratulation you scored a " + StrikeTerms[(numberOfStrikes - parDistance.Par)] + " on this hole.");
                     }
-                    
+                    if (numberOfStrikes > 1)
+                    {
+                        Console.WriteLine("If you sink your next strike you will score a " + StrikeTerms[(numberOfStrikes - parDistance.Par)] + " on this hole");
+                    }
+
                 }
                 catch (SunkTheSwingException ex)
                 {
@@ -118,6 +119,7 @@ namespace Golf
                 Console.WriteLine("Distance to hole:\t" + Math.Round(record.DistanceToHole,1).ToString()+" meters.");
                 _strikes = record.Strikes;
                 _par = record.ParOnHole;
+                Console.WriteLine("\n------------------------------------\n");
             }
             if (_strikes < _par + 4)
             {
