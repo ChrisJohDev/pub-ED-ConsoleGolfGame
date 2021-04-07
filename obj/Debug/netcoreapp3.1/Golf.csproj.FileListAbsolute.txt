@@ -1,0 +1,13 @@
+F:\Education\Lexicon\Programmerare .NET\Inlämningsuppgifter\01 CSharp\Golf\bin\Debug\netcoreapp3.1\Golf.exe
+F:\Education\Lexicon\Programmerare .NET\Inlämningsuppgifter\01 CSharp\Golf\bin\Debug\netcoreapp3.1\Golf.deps.json
+F:\Education\Lexicon\Programmerare .NET\Inlämningsuppgifter\01 CSharp\Golf\bin\Debug\netcoreapp3.1\Golf.runtimeconfig.json
+F:\Education\Lexicon\Programmerare .NET\Inlämningsuppgifter\01 CSharp\Golf\bin\Debug\netcoreapp3.1\Golf.runtimeconfig.dev.json
+F:\Education\Lexicon\Programmerare .NET\Inlämningsuppgifter\01 CSharp\Golf\bin\Debug\netcoreapp3.1\Golf.dll
+F:\Education\Lexicon\Programmerare .NET\Inlämningsuppgifter\01 CSharp\Golf\bin\Debug\netcoreapp3.1\Golf.pdb
+F:\Education\Lexicon\Programmerare .NET\Inlämningsuppgifter\01 CSharp\Golf\obj\Debug\netcoreapp3.1\Golf.csprojAssemblyReference.cache
+F:\Education\Lexicon\Programmerare .NET\Inlämningsuppgifter\01 CSharp\Golf\obj\Debug\netcoreapp3.1\Golf.AssemblyInfoInputs.cache
+F:\Education\Lexicon\Programmerare .NET\Inlämningsuppgifter\01 CSharp\Golf\obj\Debug\netcoreapp3.1\Golf.AssemblyInfo.cs
+F:\Education\Lexicon\Programmerare .NET\Inlämningsuppgifter\01 CSharp\Golf\obj\Debug\netcoreapp3.1\Golf.csproj.CoreCompileInputs.cache
+F:\Education\Lexicon\Programmerare .NET\Inlämningsuppgifter\01 CSharp\Golf\obj\Debug\netcoreapp3.1\Golf.dll
+F:\Education\Lexicon\Programmerare .NET\Inlämningsuppgifter\01 CSharp\Golf\obj\Debug\netcoreapp3.1\Golf.pdb
+F:\Education\Lexicon\Programmerare .NET\Inlämningsuppgifter\01 CSharp\Golf\obj\Debug\netcoreapp3.1\Golf.genruntimeconfig.cache
