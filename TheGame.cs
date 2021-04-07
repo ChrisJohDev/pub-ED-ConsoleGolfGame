@@ -25,12 +25,9 @@ namespace Golf
             StrokeData swing;
             _distanceToHole = parDistance.DistanceToHole();
 
-
-
             do
             {
                 Console.WriteLine("\nYou have a distance of " + Math.Round(parDistance.DistanceToHole(),1).ToString()+" meters to the cup.");
-                
                 
                 try
                 {
@@ -204,18 +201,6 @@ namespace Golf
     }
 
 
-    public struct StrokeData : IStrokeData
-    {
-        public StrokeData(double velocity, double angel)
-        {
-            Velocity = velocity;
-            Angel = angel;
-        }
-
-        public double Velocity { get; }
-        public double Angel { get; }
-
-    }
     public interface IStrokeData
     {
         double Velocity { get; }
@@ -229,6 +214,19 @@ namespace Golf
         double DistanceToHole { get; set; }
     }
 
+    public struct StrokeData : IStrokeData
+    {
+        public StrokeData(double velocity, double angel)
+        {
+            Velocity = velocity;
+            Angel = angel;
+        }
+
+        public double Velocity { get; }
+        public double Angel { get; }
+
+    }
+    
     public struct StrokeRecord : IStrokeRecord
     {
         public double Velocity { get; set; }
@@ -272,6 +270,7 @@ namespace Golf
             return this._distanceToHole;
         }
     }
+
     [Serializable]
     public class SunkTheSwingException : Exception
     {
